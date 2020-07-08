@@ -30,7 +30,7 @@ end #kesha_maker
 
 def find_a(stgs)
   stgs.collect do |stg|
-    if stg.start_with('a')
+    if stg[0] == 'a'
       stg
     end #if
   end #do
