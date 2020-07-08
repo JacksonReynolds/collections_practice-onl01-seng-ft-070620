@@ -37,5 +37,11 @@ def sum_array(ints)
 end #sum_array
 
 def add_s(stgs)
-
+  stgs.each_with_index.collect do |stg,i| 
+    if i == 1
+      stg
+    else
+      stg << 's'
+    end #if
+  end #each_with_index
 end #add_s
