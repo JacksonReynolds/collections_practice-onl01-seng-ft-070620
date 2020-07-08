@@ -25,7 +25,7 @@ def reverse_array(ints)
 end #reverse_array
 
 def kesha_maker(stgs)
-  stgs.each.collect {|word| word.sub('s','$')}
+  stgs.each.collect {|word| word[0..1]+'$'+word[3..-1] }
 end #kesha_maker
 
 def find_a(stgs)
