@@ -21,7 +21,7 @@ def swap_elements_from_to(arr, ind_1, ind_2)
 end #swap_elements_from_to
 
 def reverse_array(ints)
-
+  ints.reverse
 end #reverse_array
 
 def kesha_maker(stgs)
