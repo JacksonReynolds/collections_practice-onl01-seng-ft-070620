@@ -11,7 +11,8 @@ def sort_array_char_count(stgs)
 end #sort_array_char_count
 
 def swap_elements(arr)
-
+  arr[1], arr[2] = arr[2], arr[1]
+  arr
 end #swap_elements
 
 def swap_elements_from_to(arr, ind_1, ind_2)
