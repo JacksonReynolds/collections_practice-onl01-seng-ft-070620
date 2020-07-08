@@ -29,9 +29,10 @@ def kesha_maker(stgs)
 end #kesha_maker
 
 def find_a(stgs)
-  stgs.collect do |stg|
+  a = []
+  stgs.each do |stg|
     if stg[0] == 'a'
-      stg
+      a << stg
     end #if
   end #do
 end #find_a
