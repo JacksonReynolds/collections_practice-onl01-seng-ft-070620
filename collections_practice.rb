@@ -33,7 +33,8 @@ def find_a(stgs)
 end #find_a
 
 def sum_array(ints)
-
+  sum = 0
+  ints.inject {|sum, int| sum + int}
 end #sum_array
 
 def add_s(stgs)
