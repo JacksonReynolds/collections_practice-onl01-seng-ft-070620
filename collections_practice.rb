@@ -3,7 +3,7 @@ def sort_array_asc(ints)
 end #sort_array_asc
 
 def sort_array_desc(ints)
-  int.sort { |a,b|  b <=> a}
+  ints.sort { |a,b|  b <=> a}
 end #sort_array_desc
 
 def sort_array_char_count(stgs)
