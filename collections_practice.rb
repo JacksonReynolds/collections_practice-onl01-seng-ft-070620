@@ -11,7 +11,7 @@ def sort_array_char_count(stgs)
 end #sort_array_char_count
 
 def swap_elements(arr)
-  
+
 end #swap_elements
 
 def swap_elements_from_to(arr, ind_1, ind_2)
@@ -20,7 +20,7 @@ def swap_elements_from_to(arr, ind_1, ind_2)
 end #swap_elements_from_to
 
 def reverse_array(ints)
-  
+
 end #reverse_array
 
 def kesha_maker(stgs)
