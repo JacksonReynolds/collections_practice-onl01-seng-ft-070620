@@ -39,4 +39,3 @@ end #sum_array
 def add_s(stgs)
 
 end #add_s
-  
